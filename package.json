@@ -1,0 +1,24 @@
+{
+  "name": "katekani-nyamandi-186-consume-github-api-javascript",
+  "version": "1.0.0",
+  "description": "Consume Github API (186) For raw project instructions see: http://syllabus.africacode.net/projects/github-api-consume/part1/",
+  "main": "src/consume_github_api.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "keywords": [
+    "Github",
+    "RestAPI",
+    "GET"
+  ],
+  "author": "Katekani Nyamandi",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "jasmine": "^5.2.0"
+  }
+}
