@@ -1,4 +1,4 @@
-# GitHub API Pull Request Fetcher
+# Fetch Github Pull Requests
 
 ## Description
 This Node.js project fetches pull requests from a specified GitHub repository using the GitHub API. It allows filtering PRs by date range and formats the output for easy readability.
@@ -67,3 +67,10 @@ Formats the pull request data into a readable structure.
 ## Error Handling
 - If an invalid owner or repository is provided, an error message is returned.
 - If the GitHub API request fails, an error is thrown with details.
+
+## Testing
+
+Run tests using 
+```
+npm run test
+```
